@@ -1,0 +1,49 @@
+:root {
+  --main-bg-img: url(../img/bg2.jpeg);
+  --font-size-pr: 21px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: var(--main-bg-img);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.glass {
+  width: inherit;
+  height: inherit;
+  background-color: white;
+  background-image: var(--main-bg-img);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(10px);
+  clip-path: inset(20em 10em round 10px);
+}
+
+span {
+  position: absolute;
+  color: red;
+  font-size: var(--font-size-pr);
+  letter-spacing: 0.75em;
+  text-transform: uppercase;
+}

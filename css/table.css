@@ -1,0 +1,20 @@
+tfoot {
+  background-color: gray;
+}
+
+thead {
+  background-color: darkslategray;
+  color: white;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 2px solid darkslategray;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: darkturquoise;
+}
